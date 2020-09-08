@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"sans-serif";
+   
+}
+
+.container{
+    width:100%;
+    height: 100%;
+   
+}
+
+.container>h1{
+    text-align:center;
+}
+
+
+.cajas{
+    display: flex;
+    justify-content:space-around;
+    margin-top:5%;
+    width: 100%;
+    
+}
+
+.caja{
+    width:24%;
+    height:100px;
+
+}
+
+.caja>h2{
+    width: 100%;
+    font-size:16px;
+    font-weight:300;
+}
+
+.rojo{
+    background-color:red;
+    color:yellow;
+}
+
+.black{
+    background-color:black;
+    color:#ffffff;
+}
+
+/*-----------Breakpoints o Responsive Formulario-------------*/
+
+@media screen and (max-width:1100px){
+
+    .caja>h2{
+        font-size:36px;
+        font-weight:300;
+    }
+    .container>h1{
+        font-size:38px;
+    }
+
+    .caja{
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    .caja>h2{
+        font-size:30px;
+        font-weight:300;
+    }
+    .container>h1{
+        font-size:30px;
+    }
+
+    .caja{
+        height: 200px;
+    }
+} 
+
+@media screen and (max-width:700px){
+    .caja>h2{
+        font-size:30px;
+        font-weight:300;
+    }
+    .container>h1{
+        font-size:30px;
+    }
+
+    .caja{
+        height: 150px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .caja>h2{
+        font-size:25px;
+        font-weight:300;
+    }
+
+    .caja{
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .caja>h2{
+        font-size:20px;
+        font-weight:300;
+    }
+
+    .caja{
+        width:24%;
+        height:100px;
+    
+    }
+
+    .container>h1{
+        font-size:20px;
+    }
+}
