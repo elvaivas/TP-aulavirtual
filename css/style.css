@@ -49,18 +49,19 @@
 
 /*-----------Breakpoints o Responsive Formulario-------------*/
 
-@media screen and (max-width:1100px){
+
+@media screen and (min-width:900px){
 
     .caja>h2{
         font-size:36px;
         font-weight:300;
     }
     .container>h1{
-        font-size:38px;
+        font-size:39px;
     }
 
     .caja{
-        height: 200px;
+        height: 270px;
     }
     
 }
